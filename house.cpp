@@ -27,7 +27,7 @@ int main(){
             if(m == 4) break;
             cout << "#";
         }
-        cout << endl;
+        (m != 4) ? cout << endl : cout << "";
     }
     return 0;
 }
